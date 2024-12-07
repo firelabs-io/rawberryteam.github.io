@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+header {
+    background-color: #1E3A5F;
+    padding: 20px;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav .social {
+    float: right;
+    margin: 20px;
+    margin-top: -20px;
+}
+
+.social img {
+    width: 30px;
+    height: auto;
+}
+
+.hero {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.hero img {
+    width: 200px;
+}
+
+.download {
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer {
+    background-color: #1E3A5F;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto; 
+    width: 100%;
+}
+
+main {
+    flex: 1;
+}
+
+.feedback {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.feedback form {
+    display: inline-block;
+    text-align: left;
+    width: 300px;
+}
+
+.feedback input, .feedback textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.feedback button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1E3A5F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.feedback button:hover {
+    background-color: #163047;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #1E3A5F;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #163047;
+}
+
+.docs {
+    text-align: center;
+    margin-top: 30px;
+}
