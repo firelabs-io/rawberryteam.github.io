@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    background-color: #1E3A5F;
+    background-color: #35338a;
     padding: 20px;
     color: white;
 }
@@ -61,7 +61,7 @@ nav .social {
 }
 
 footer {
-    background-color: #1E3A5F;
+    background-color: #35338a;
     color: white;
     text-align: center;
     padding: 20px;
@@ -95,7 +95,7 @@ main {
 .feedback button {
     width: 100%;
     padding: 10px;
-    background-color: #1E3A5F;
+    background-color: #35338a;
     color: white;
     border: none;
     border-radius: 5px;
@@ -110,7 +110,7 @@ main {
     display: inline-block;
     padding: 10px 20px;
     margin-top: 10px;
-    background-color: #1E3A5F;
+    background-color: #35338a;
     color: white;
     text-decoration: none;
     border-radius: 5px;
